@@ -1,0 +1,20 @@
+# JNZ instruction
+# this instructions jumps to another address if the Z flag is NOT set (i.e. = 0)
+LABEL JNZ
+OPCODE 0x03
+# timing states -> (S,Z) = (0,0)
+T2 IR_DO, PC_IP
+T3
+T4
+T5
+# timing states -> (S,Z) = (0,1)
+T10
+T11
+T12
+T13
+# timing states -> (S,Z) = (1,0)
+T18 IR_DO, PC_IP
+T19
+T20
+T21
+

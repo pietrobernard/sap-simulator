@@ -1,0 +1,20 @@
+# JMP instruction
+# this instructions jumps unconditionally to another address
+LABEL JMP
+OPCODE 0x05
+# timing states -> (S,Z) = (0,0)
+T2 IR_DO, PC_IP
+T3
+T4
+T5
+# timing states -> (S,Z) = (0,1)
+T10 IR_DO, PC_IP
+T11
+T12
+T13
+# timing states -> (S,Z) = (1,0)
+T18 IR_DO, PC_IP
+T19
+T20
+T21
+

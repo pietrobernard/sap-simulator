@@ -1,0 +1,19 @@
+# HLT instruction
+LABEL ADD
+OPCODE 0x01
+# timing states -> (S,Z) = (0,0)
+T2 IR_DO, MAR_MAR_IN
+T3 MAR_MEM_OUT, BR_DI
+T4 BR_DO
+T5 ALU_ALU_OUT, AR_IN, FR_IN
+# timing states -> (S,Z) = (0,1)
+T10 IR_DO, MAR_MAR_IN
+T11 MAR_MEM_OUT, BR_DI
+T12 BR_DO
+T13 ALU_ALU_OUT, AR_IN, FR_IN
+# timing states -> (S,Z) = (1,0)
+T18 IR_DO, MAR_MAR_IN
+T19 MAR_MEM_OUT, BR_DI
+T20 BR_DO
+T21 ALU_ALU_OUT, AR_IN, FR_IN
+

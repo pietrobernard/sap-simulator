@@ -1,0 +1,8 @@
+# LDA instruction
+LABEL LDA
+OPCODE 0x00
+# timing states
+T3 MAR_MEM_OUT, AR_IN
+T4
+T5
+

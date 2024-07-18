@@ -1,0 +1,8 @@
+# HLT instruction
+LABEL OUT
+OPCODE 0x0E
+# timing states
+T3 AR_OUT, OR_DI
+T4 
+T5
+

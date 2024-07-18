@@ -1,0 +1,19 @@
+# HLT instruction
+LABEL OUT
+OPCODE 0x0E
+# timing states
+T2 AR_OUT, OR_DI
+T3
+T4 
+T5
+# timing states - (S,Z) = (0,1)
+T10 AR_OUT, OR_DI
+T11
+T12
+T13
+# timing states - (S,Z) = (1,0)
+T18 AR_OUT, OR_DI
+T19
+T20
+T21
+

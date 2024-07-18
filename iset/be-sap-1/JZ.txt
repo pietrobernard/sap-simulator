@@ -1,0 +1,20 @@
+# JZ instruction
+# this instructions jumps to another address if the Z flag IS set (i.e. = 1)
+LABEL JZ
+OPCODE 0x04
+# timing states -> (S,Z) = (0,0)
+T2
+T3
+T4
+T5
+# timing states -> (S,Z) = (0,1)
+T10 IR_DO, PC_IP
+T11
+T12
+T13
+# timing states -> (S,Z) = (1,0)
+T18
+T19
+T20
+T21
+

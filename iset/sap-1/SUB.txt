@@ -1,0 +1,8 @@
+# HLT instruction
+LABEL SUB
+OPCODE 0x02
+# timing states
+T3 MAR_MEM_OUT, BR_DI,
+T4 BR_DO, ALU_ADDSUB
+T5 ALU_ALU_OUT, AR_IN
+
